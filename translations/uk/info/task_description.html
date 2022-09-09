@@ -1,0 +1,23 @@
+<!-- Describe task in general -->
+
+<p>
+    Тобі дано {% if is_js %}масив{% else %}список{% endif %} цілих чисел.
+    Перемісти всі нулі в {% if is_js %}масиві{% else %}списку{% endif %} в його кінець.
+    Порядок ненульових елементів повинен залишитися незмінним.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Вхідні дані:</strong> {% if is_js %}Масив{% else %}Список{% endif %} цілих чисел.
+</p>
+
+<p>
+    <strong>Вихідні дані:</strong> {% if is_js %}Масив{% else %}Список{% endif %} цілих чисел. 
+</p>
+
+
+<p>
+    <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
