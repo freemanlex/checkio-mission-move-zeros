@@ -11,7 +11,7 @@ api.add_listener(
         tests=TESTS,
         checker=to_list,
         function_name={
-            "python": "move_zeros"
+            "python": "move_zeros",
             "js": "moveZeros"
         },
         cover_code={
