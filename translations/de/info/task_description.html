@@ -1,0 +1,23 @@
+<!-- Describe task in general -->
+
+<p>
+    Sie erhalten {% if is_js %}ein Array mit Zahlen{% else %}eine Liste mit ganzen Zahlen{% endif %}.
+    Verschieben Sie alle Nullen in der Liste {% if is_js %}Array{% else %}{% endif %} an das Ende der Liste.
+    Die Reihenfolge der Nicht-Null-Elemente sollte sich nicht ändern.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> {% if is_js %}Ein Array mit Zahlen{% else %}Eine Liste mit ganzen Zahlen{% endif %}.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> {% if is_js %}Ein Array mit Zahlen{% else %}Eine Liste oder ein anderes Iterable (Tupel, Genenator, Iterator) mit ganzen Zahlen{% endif %}. 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
